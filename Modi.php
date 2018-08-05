@@ -67,7 +67,7 @@ function printSelection(node){
   var pwin=window.open('','print_content','width=777,height=600');
   pwin.document.open();
   pwin.document.write('<html><head><link rel="stylesheet" href="style/printstyle.css" type="text/css" />');
-  pwin.document.write('<title>المصدر | <?php echo $row["name"]; ?></title>');
+  pwin.document.write('<title>عصر الواب | <?php echo $row["name"]; ?></title>');
   pwin.document.write('</head><body onload="window.print()">'+content+'</body></html>');
   pwin.document.close();
   setTimeout(function(){pwin.close();},1000);
