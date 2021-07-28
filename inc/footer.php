@@ -8,11 +8,6 @@
 
 </p>
 
-</div>
-  </div>
-            </div>        
-        </div>
-    </div>
         <footer>
 <hr>
  <div class="container">
